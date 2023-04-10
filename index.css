@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./images/pain.jpg);
+  background-size: cover;
+}
+
+.container .auth {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  row-gap: 20px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  background-color: #ffffff25;
+  margin-left: 150px;
+}
+
+.container .auth img {
+  width: 120px;
+  height: 80px;
+}
+
+.container .auth p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.container .auth input {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.container .auth button {
+  width: 100%;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0e64d2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container .auth button:focus-visible {
+  outline: none;
+}
+
+.container .auth input:focus-visible {
+  border: none;
+  outline: none;
+}
+
+.username {
+  display: flex;
+}
+
+.password {
+  display: none;
+}

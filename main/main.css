@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/demon_slayer.jpg);
+  transition: 1s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Source Sans Pro", sans-serif, bold;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.search_anime_pers {
+  width: 280px;
+  height: 30px;
+  position: fixed;
+  border-radius: 10px;
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+  font-size: 18px;
+  top: 0;
+}
+
+.search_anime_pers:focus-visible {
+  outline: none;
+}
+
+.anime_container {
+  display: flex;
+  position: fixed;
+  left: -100%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 20%;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ffffff25;
+  transition: 0.3s;
+}
+
+.anime_container.active {
+  left: 0;
+}
+
+.anime_container a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  background-color: #ffffff25;
+  border-radius: 10px;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.anime_container a:hover {
+  color: #fff;
+}
+
+.anime_container.active a {
+  transform: scale(1);
+  transition-delay: 0;
+  transition: 0.2s;
+}
+
+.anime_container a:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.anime_container a:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.anime_container a:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.anime_container a:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.anime_container a:nth-child(5) {
+  transition-delay: 0.5s;
+}
+.anime_container a:nth-child(6) {
+  transition-delay: 0.6s;
+}
+.anime_container a:nth-child(7) {
+  transition-delay: 0.7s;
+}
+.anime_container a:nth-child(8) {
+  transition-delay: 0.8s;
+}
+.anime_container a:nth-child(9) {
+  transition-delay: 0.9s;
+}
+.anime_container a:nth-child(10) {
+  transition-delay: 1s;
+}
+.anime_container a:nth-child(11) {
+  transition-delay: 1.1s;
+}
+.anime_container a:nth-child(12) {
+  transition-delay: 1.2s;
+}
+
+#iframe {
+  border-radius: 10px;
+  position: fixed;
+  right: -100%;
+  width: 80%;
+  height: 100vh;
+  transition: 0.3s;
+}
+
+#iframe.active {
+  right: 0;
+}
