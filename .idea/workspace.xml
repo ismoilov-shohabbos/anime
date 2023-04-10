@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07892d71-599a-456e-918d-3898016fdde5" name="Changes" comment="" />
+    <list default="true" id="07892d71-599a-456e-918d-3898016fdde5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Naruto/naruto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Naruto/wallpapersden.com_hokage-naruto-4k_4098x2304.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Naruto/wallpapersden.com_naruto-uzumaki-minimalist_4098x2304.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/akatsuki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/demon_slayer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/kakashi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/kaneki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/naruto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sasuke.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/satoru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/constans/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/helpers/findUserByUsername.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/helpers/hasPermission.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +75,7 @@
       <workItem from="1674637728418" duration="2665000" />
       <workItem from="1674726313983" duration="1236000" />
       <workItem from="1680865939206" duration="18000" />
-      <workItem from="1681126199146" duration="1018000" />
+      <workItem from="1681126199146" duration="1484000" />
     </task>
     <servers />
   </component>
